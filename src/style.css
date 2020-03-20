@@ -1,0 +1,61 @@
+.izq-menu {
+	background-color: rgb(24, 34, 43);
+	width: 22%;
+	height: 100vh;
+	border-right: solid 1px rgb(56, 68, 77);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.appnav {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+}
+.appnav div {
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.appnav a {
+	display: flex;
+	font-size: 20px;
+	text-decoration: none;
+	color: ivory;
+	font-weight: bold;
+}
+.appnav span {
+	margin-left: 20px;
+}
+.app-logo {
+	display: flex;
+	align-items: flex-start;
+	align-self: stretch;
+	height: 3rem;
+	padding-top: 5px;
+}
+/*
+.inicio {
+	padding-left: 40px;
+	display: flex;
+	padding-top: 9px;
+	float: left;
+	justify-content: left;
+	padding-bottom: 15px;
+}
+.inicio span {
+	font-size: 18px;
+	color: ivory;
+	margin-left: 20px;
+	margin-top: 3px;
+	text-align: center;
+}
+
+.inicio img {
+	display: flex;
+	width: 10%;
+}
+
+.inicio:hover {
+	background-color: rgba(27, 37, 120, 0.7);
+	border-radius: 100px;
+} */

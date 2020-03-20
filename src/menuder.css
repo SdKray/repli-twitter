@@ -1,0 +1,30 @@
+.menuder {
+	display: flex;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: seashell;
+	width: 31%;
+	height: 100vh;
+	background-color: rgb(24, 34, 43);
+	border-left: solid 1px rgb(56, 68, 77);
+	flex-flow: column;
+	align-items: center;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	background-color: rgb(37, 51, 65);
+	border-radius: 35px;
+	margin-top: 8px;
+	width: 82%;
+	height: 40px;
+}
+.search input {
+	background-color: rgb(37, 51, 65);
+	border: none;
+	height: 90%;
+}
