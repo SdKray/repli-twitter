@@ -12,7 +12,6 @@ export default function Twittear() {
 					<span>¿Qué está pasando?</span>
 				</div>
 			</div>
-
 			<div className='div3'>
 				<div className='btn2'>
 					<a href='/'>Twittear</a>
