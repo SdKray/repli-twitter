@@ -7,13 +7,23 @@ import Noticias from './containers/Noticias';
 
 function App() {
 	return (
-		<div className='App'>
-			<Menu />
-			<div className='prueba'>
-				<Noticias />
+		<div className='App' style={{backgroundColor:"#ffff"}}>
+			<div style={{width:"80%", display:"flex"}}> 
+				<div style={{ width: "20%",  }} >
+					<Menu />
+				</div>
+				<div style={{ width: "60%" }}>
+					<Noticias />
+				</div>
+				<div style={{ width: "20%", backgroundColor: "#846544" }}>
+					Seccion 3
 			</div>
+
+			</div>
+			
 		</div>
 	);
 }
 
 export default App;
+

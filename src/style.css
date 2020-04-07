@@ -1,14 +1,15 @@
 .izq-menu {
 	background-color: rgb(24, 34, 43);
-	width: 22%;
+	/* width: 22%; */
 	height: 100vh;
 	border-right: solid 1px rgb(56, 68, 77);
 	display: flex;
 	flex-flow: column;
 	align-items: flex-end;
+	position: fixed;
 }
 .container {
-	width: 60%;
+	/* width: 60%; */
 	background-color: rgb(24, 34, 43);
 	border-right: solid 1px #253341;
 }
